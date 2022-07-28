@@ -60,10 +60,19 @@
     color: yellow; 
 }
 
-.div input{
-    width: 100%;
+.dis input{
+    width: 90.5%;
     color: white;
     padding: 5px 20px; 
     text-align: right;
     background-color: black;
+}
+
+input::placeholder{
+    color: white;
+}
+
+.padButton:hover{
+    border: 1px solid white;
+    color: #ccc;
 }
